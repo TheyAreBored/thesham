@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Sham</title>
+    <style>
+        /* Basic reset and background setup */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #FAE1D4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        /* Container to stack image and text vertically */
+        .content-wrapper {
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Adjust image sizing */
+        img {
+            max-width: 90vw; /* Won't exceed screen width */
+            max-height: 70vh; /* Leaves room for the text */
+            height: auto;
+            display: block;
+            margin: 0 auto 24px auto; /* Bottom margin creates space for text */
+        }
+
+        /* Text styling */
+        p {
+            font-size: 1.1rem;
+            color: #333;
+            margin: 0;
+            letter-spacing: 0.5px;
+        }
+
+        /* Make the email look professional */
+        a {
+            color: inherit;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content-wrapper">
+        <!-- Replace 'your-image.jpg' with your actual filename -->
+        <img src="your-image.jpg" alt="Centred Content">
+        <p>Contact: <a href="mailto:neil@thesham.co">neil@thesham.co</a></p>
+    </div>
+
+</body>
+</html>
